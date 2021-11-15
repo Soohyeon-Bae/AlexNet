@@ -3,7 +3,6 @@ import tensorflow as tf
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Conv2D, MaxPooling2D, ZeroPadding2D, Flatten, Dropout
 
-# 계층을 선형으로 쌓음
 
 input_img = (224, 224, 3)
 
